@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flag Capture</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+  <script src="https://unpkg.com/aframe-physics-extras@0.1.2/dist/aframe-physics-extras.min.js"></script>
+
+  <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+
+    <script src="player.js"></script>
+
+</head>
+
+<body>
+
+    <a-scene>
+        <a-entity environment="preset:goldmine"></a-entity>
+
+        
+        <a-entity>
+            <a-box id="player" position="0 0 -1" color="cyan"></a-box>
+        </a-entity>
+
+       <!-- 
+        contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris, moon
+        
+        <a-entity camera position="0 -2 10" wasd-controls >
+        </a-entity>
+        <a-entity environment="skyType:gradient; preset:egypt; groundTexture:squares"></a-entity>
+        <a-box position="0 0 -3" color="cyan"></a-box>
+        -->
+    </a-scene>
+</body>
+
+</html>
